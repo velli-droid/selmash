@@ -1,0 +1,553 @@
+// FONTS
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratBlack.eot');
+    src: url('../fonts/MontserratBlack.eot') format('embedded-opentype'),
+         url('../fonts/MontserratBlack.woff2') format('woff2'),
+         url('../fonts/MontserratBlack.woff') format('woff'),
+         url('../fonts/MontserratBlack.ttf') format('truetype'),
+         url('../fonts/MontserratBlack.svg#MontserratBlack') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+    src: url('../fonts/MontserratExtraBold.eot');
+    src: url('../fonts/MontserratExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratExtraBold.woff2') format('woff2'),
+         url('../fonts/MontserratExtraBold.woff') format('woff'),
+         url('../fonts/MontserratExtraBold.ttf') format('truetype'),
+         url('../fonts/MontserratExtraBold.svg#MontserratExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratBold.eot');
+    src: url('../fonts/MontserratBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratBold.woff2') format('woff2'),
+         url('../fonts/MontserratBold.woff') format('woff'),
+         url('../fonts/MontserratBold.ttf') format('truetype'),
+         url('../fonts/MontserratBold.svg#MontserratBold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratSemiBold.eot');
+    src: url('../fonts/MontserratSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratSemiBold.woff2') format('woff2'),
+         url('../fonts/MontserratSemiBold.woff') format('woff'),
+         url('../fonts/MontserratSemiBold.ttf') format('truetype'),
+         url('../fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratMedium.eot');
+    src: url('../fonts/MontserratMedium.eot') format('embedded-opentype'),
+         url('../fonts/MontserratMedium.woff2') format('woff2'),
+         url('../fonts/MontserratMedium.woff') format('woff'),
+         url('../fonts/MontserratMedium.ttf') format('truetype'),
+         url('../fonts/MontserratMedium.svg#MontserratMedium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratRegular.eot');
+    src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'),
+         url('../fonts/MontserratRegular.woff2') format('woff2'),
+         url('../fonts/MontserratRegular.woff') format('woff'),
+         url('../fonts/MontserratRegular.ttf') format('truetype'),
+         url('../fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratLight.eot');
+    src: url('../fonts/MontserratLight.eot') format('embedded-opentype'),
+         url('../fonts/MontserratLight.woff2') format('woff2'),
+         url('../fonts/MontserratLight.woff') format('woff'),
+         url('../fonts/MontserratLight.ttf') format('truetype'),
+         url('../fonts/MontserratLight.svg#MontserratLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-BoldItalic.eot');
+    src: local('Inter Bold Italic'), local('Inter-BoldItalic'),
+        url('../fonts/Inter-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Inter-BoldItalic.woff') format('woff'),
+        url('../fonts/Inter-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-MediumItalic.eot');
+    src: local('Inter Medium Italic'), local('Inter-MediumItalic'),
+        url('../fonts/Inter-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Inter-MediumItalic.woff') format('woff'),
+        url('../fonts/Inter-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ThinItalicBETA.eot');
+    src: local('Inter Thin Italic BETA'), local('Inter-ThinItalicBETA'),
+        url('../fonts/Inter-ThinItalicBETA.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ThinItalicBETA.woff2') format('woff2'),
+        url('../fonts/Inter-ThinItalicBETA.woff') format('woff'),
+        url('../fonts/Inter-ThinItalicBETA.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.eot');
+    src: local('Inter Regular'), local('Inter-Regular'),
+        url('../fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff'),
+        url('../fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Black.eot');
+    src: local('Inter Black'), local('Inter-Black'),
+        url('../fonts/Inter-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Black.woff2') format('woff2'),
+        url('../fonts/Inter-Black.woff') format('woff'),
+        url('../fonts/Inter-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-BlackItalic.eot');
+    src: local('Inter Black Italic'), local('Inter-BlackItalic'),
+        url('../fonts/Inter-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Inter-BlackItalic.woff') format('woff'),
+        url('../fonts/Inter-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-LightBETA.eot');
+    src: local('Inter Light BETA'), local('Inter-LightBETA'),
+        url('../fonts/Inter-LightBETA.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-LightBETA.woff2') format('woff2'),
+        url('../fonts/Inter-LightBETA.woff') format('woff'),
+        url('../fonts/Inter-LightBETA.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.eot');
+    src: local('Inter Semi Bold'), local('Inter-SemiBold'),
+        url('../fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff'),
+        url('../fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBoldItalic.eot');
+    src: local('Inter Extra Bold Italic'), local('Inter-ExtraBoldItalic'),
+        url('../fonts/Inter-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Inter-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.eot');
+    src: local('Inter Bold'), local('Inter-Bold'),
+        url('../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff'),
+        url('../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraLightItalicBETA.eot');
+    src: local('Inter Extra Light Italic BETA'), local('Inter-ExtraLightItalicBETA'),
+        url('../fonts/Inter-ExtraLightItalicBETA.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraLightItalicBETA.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraLightItalicBETA.woff') format('woff'),
+        url('../fonts/Inter-ExtraLightItalicBETA.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraLightBETA.eot');
+    src: local('Inter Extra Light BETA'), local('Inter-ExtraLightBETA'),
+        url('../fonts/Inter-ExtraLightBETA.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraLightBETA.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraLightBETA.woff') format('woff'),
+        url('../fonts/Inter-ExtraLightBETA.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.eot');
+    src: local('Inter Extra Bold'), local('Inter-ExtraBold'),
+        url('../fonts/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBold.woff') format('woff'),
+        url('../fonts/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ThinBETA.eot');
+    src: local('Inter Thin BETA'), local('Inter-ThinBETA'),
+        url('../fonts/Inter-ThinBETA.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-ThinBETA.woff2') format('woff2'),
+        url('../fonts/Inter-ThinBETA.woff') format('woff'),
+        url('../fonts/Inter-ThinBETA.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-LightItalicBETA.eot');
+    src: local('Inter Light Italic BETA'), local('Inter-LightItalicBETA'),
+        url('../fonts/Inter-LightItalicBETA.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-LightItalicBETA.woff2') format('woff2'),
+        url('../fonts/Inter-LightItalicBETA.woff') format('woff'),
+        url('../fonts/Inter-LightItalicBETA.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Italic.eot');
+    src: local('Inter Italic'), local('Inter-Italic'),
+        url('../fonts/Inter-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Italic.woff2') format('woff2'),
+        url('../fonts/Inter-Italic.woff') format('woff'),
+        url('../fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBoldItalic.eot');
+    src: local('Inter Semi Bold Italic'), local('Inter-SemiBoldItalic'),
+        url('../fonts/Inter-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Inter-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.eot');
+    src: local('Inter Medium'), local('Inter-Medium'),
+        url('../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff'),
+        url('../fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+// BASE STYLES
+
+$first-font-family: "Montserrat";
+$second-font-family: "Inter";
+$page-font-size: 14px;
+$white: #fff;
+$beige: #FBF9F6;
+$blue: #00ADEF;
+$orange: #FF7900;
+$brown: #9C8679;
+$gray-1: #888888;
+$black: #000;
+
+body {
+    font-family: $first-font-family;
+    font-size: $page-font-size;
+    line-height: 140%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 , p {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+@mixin space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin nav-link {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+@mixin link-transition {
+    text-decoration: none;
+    transition: .3s linear;
+}
+@mixin list-style-none {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+// HEADER
+
+.header {
+    padding: 24px 0 36px;
+}
+.header__inner {
+    @include space-between;
+}
+.logo {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.page-nav {
+    width: 100%;
+    max-width: 288px;
+}
+.page-nav__list {
+    @include space-between;
+    @include list-style-none;
+}
+.page-nav__link {
+    @include link-transition;
+    @include nav-link;
+    color: $gray-1;
+    &:hover {
+        color: $black;
+    }
+}
+.contacts {
+    @include space-between;
+    width: 100%;
+    max-width: 505px;
+}
+.contacts__item {
+    display: flex;
+    align-items: center;
+    font-family: $second-font-family;
+}
+.contacts__icon {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
+    min-height: 26px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: $white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.contacts__title {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.contacts__text {
+    color: $gray-1;
+    line-height: 17px;
+}
+
+.header__contacts {
+    .phone-link {
+        @include link-transition;
+        color: $black;
+        &:hover {
+            color: $blue;
+        }
+    }
+    .callback-link {
+        @include link-transition;
+        color: $blue;
+        border-bottom: 1px dashed $blue;
+    }
+}
+
+// FOOTER
+
+.footer-top {
+    padding: 44px 0 39px;
+    background: $brown;
+}
+.footer-top__inner {
+    @include space-between;
+    align-items: flex-start;
+}
+.footer__logo {
+    font-family: $second-font-family;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: $white;
+}
+.footer-top__contacts {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: none;
+    width: auto;
+    .contacts__item {
+        max-width: 186px;
+        margin-bottom: 28px;
+        .contacts__title {
+            color: $white;
+        }
+        .contacts__text {
+            color: $white;
+        }
+        .phone-link,
+        .callback-link {
+            @include link-transition;
+            color: $white;
+        }
+        .phone-link {
+            &:hover {
+                color: $orange;
+            }
+        }
+        .callback-link {
+            border-bottom: 1px dashed $white;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.footer-top__nav-list {
+    @include list-style-none;
+}
+.footer-top__nav-item {
+    margin-bottom: 17px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.footer-top__nav-link {
+    @include link-transition;
+    @include nav-link;
+    font-weight: 600;
+    color: $white;
+    &:hover {
+        color: $orange;
+    }
+}
+
+.footer-bottom {
+    padding: 20px 0 19px;
+    background: $beige;
+}
+.footer-bottom__inner {
+    @include space-between;
+}
+.footer-bottom__copyright {
+    font-size: 13px;
+    line-height: 16px;
+    color: $brown;
+}
+.socials-list {
+    display: flex;
+    align-items: center;
+    .contacts__icon {
+        min-width: 32px;
+        min-height: 32px;
+        margin-right: 0;
+        transition: .3s linear;
+        box-shadow: none;
+        &:hover {
+            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+        }
+    }
+} 
+.socials-list__item {
+    margin-right: 9px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+
+    
