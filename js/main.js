@@ -59,12 +59,22 @@ const introSwiper = new Swiper('.intro-tabs__header-swiper', {
 tabs('.about-tabs');
 
 // ABOUT TABS SWIPERS
-
 const aboutSwiper = new Swiper('.about-tabs__swiper', {
     slidesPerView: 1,
     spaceBetween: 20,
     navigation: {
         nextEl: '.about-tabs-next',
         prevEl: '.about-tabs-prev',
+    },
+});
+
+// PARTNERS SWIPER
+
+const partnersSwiper = new Swiper('.partners-swiper', {
+    slidesPerView: 6,
+    spaceBetween: 6,
+    navigation: {
+        nextEl: '.partners-swiper-next',
+        prevEl: '.partners-swiper-prev',
     },
 });
