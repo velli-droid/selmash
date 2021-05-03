@@ -9,6 +9,7 @@
          url('../fonts/MontserratBlack.svg#MontserratBlack') format('svg');
 	font-weight: 900;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -20,6 +21,7 @@
          url('../fonts/MontserratExtraBold.svg#MontserratExtraBold') format('svg');
 	font-weight: 800;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -31,6 +33,7 @@
          url('../fonts/MontserratBold.svg#MontserratBold') format('svg');
 	font-weight: 700;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -42,6 +45,7 @@
          url('../fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
 	font-weight: 600;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -53,6 +57,7 @@
          url('../fonts/MontserratMedium.svg#MontserratMedium') format('svg');
 	font-weight: 500;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -64,6 +69,7 @@
          url('../fonts/MontserratRegular.svg#MontserratRegular') format('svg');
 	font-weight: 400;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -75,6 +81,7 @@
          url('../fonts/MontserratLight.svg#MontserratLight') format('svg');
 	font-weight: 300;
 	font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Inter';
@@ -86,6 +93,7 @@
         url('../fonts/Inter-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -98,6 +106,7 @@
         url('../fonts/Inter-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -110,6 +119,7 @@
         url('../fonts/Inter-ThinItalicBETA.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -122,6 +132,7 @@
         url('../fonts/Inter-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -134,6 +145,7 @@
         url('../fonts/Inter-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -146,6 +158,7 @@
         url('../fonts/Inter-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -158,6 +171,7 @@
         url('../fonts/Inter-LightBETA.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -170,6 +184,7 @@
         url('../fonts/Inter-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -182,6 +197,7 @@
         url('../fonts/Inter-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -194,6 +210,7 @@
         url('../fonts/Inter-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -206,6 +223,7 @@
         url('../fonts/Inter-ExtraLightItalicBETA.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -218,6 +236,7 @@
         url('../fonts/Inter-ExtraLightBETA.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -230,6 +249,7 @@
         url('../fonts/Inter-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -242,6 +262,7 @@
         url('../fonts/Inter-ThinBETA.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -254,6 +275,7 @@
         url('../fonts/Inter-LightItalicBETA.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -266,6 +288,7 @@
         url('../fonts/Inter-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -278,6 +301,7 @@
         url('../fonts/Inter-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -290,6 +314,7 @@
         url('../fonts/Inter-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 // BASE STYLES
@@ -311,7 +336,7 @@ $gray-4: #9F9F9F;
 $black: #000;
 
 body {
-    font-family: $first-font-family;
+    font-family: $first-font-family, sans-serif;;
     font-size: $page-font-size;
     line-height: 140%;
     font-weight: 400;
@@ -397,7 +422,7 @@ h1, h2, h3, h4, h5, h6 , p {
 // HEADER
 
 .header {
-    padding: 24px 0 36px;
+    padding: 24px 0;
 }
 .header__inner {
     @include space-between;
@@ -551,8 +576,10 @@ h1, h2, h3, h4, h5, h6 , p {
     cursor: pointer;
     z-index: 7;
     transition: .3s linear;
+    outline: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
     &:hover {
-        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.18);
     }
     .swiper-btn__wrapper {
         position: relative;
@@ -697,6 +724,11 @@ h1, h2, h3, h4, h5, h6 , p {
 .page-btn__link {
     @include link-transition;
     @include page-btn;
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px $white; 
+    }
+    
 }
 
 // ABOUT
@@ -918,7 +950,7 @@ h1, h2, h3, h4, h5, h6 , p {
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 .about-tabs__text {
     font-family: $second-font-family;
@@ -985,11 +1017,17 @@ h1, h2, h3, h4, h5, h6 , p {
     position: relative;
     padding: 2px 0 2px 39px;
     .radio-input {
-        display: none;
+        position: absolute;
+        opacity: 0;
         &:checked ~ .radio-label {
             color: $black;
             &::after {
                 background: $blue;
+            }
+        }
+        &:focus ~ .radio-label {
+            &::before {
+                border: 1px solid $orange;
             }
         }
     }
@@ -1129,6 +1167,13 @@ h1, h2, h3, h4, h5, h6 , p {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-left: 20px;
+}
+.request-info__link {
+    @include link-transition;
+    color: $white;
+    &:hover {
+        color: $orange-hover;
+    }
 }
 .request-circle {
     position: absolute;
@@ -1614,8 +1659,7 @@ h1, h2, h3, h4, h5, h6 , p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 240px;
+    width: 24%;
     padding: 32px 16px 34px;
     background: $white;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
@@ -1660,17 +1704,20 @@ h1, h2, h3, h4, h5, h6 , p {
     color: $deep-blue;
     margin-bottom: 24px;
 }
-.payment-list__btn {
-    .page-btn__link {
-        border: 1.4px solid $orange;
-        background: $white;
-        color: $black;
-        &:hover {
-            background: $orange;
-            color: $white;
-        }
+.page-btn__link_payment {
+    border: 1.4px solid $orange;
+    background: $white;
+    color: $black;
+    &:hover {
+        background: $orange;
+        color: $white;
+    }
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 3px $orange;
     }
 }
+
 
 // BUILDING
 
@@ -1890,6 +1937,10 @@ h1, h2, h3, h4, h5, h6 , p {
     width: 100%;
     border-radius: 10px;
     outline: none;
+    border: 1px solid transparent;
+    &:focus {
+        border: 1px solid $orange;
+    }
 }
 .form-btn {
     width: 100%;
@@ -1899,6 +1950,12 @@ h1, h2, h3, h4, h5, h6 , p {
     .page-btn__link {
         border: none;
         cursor: pointer;
+    }
+}
+.page-btn__link_form {
+    &:focus {
+        box-shadow: 0 0 0 2px $white, 0 0 25px rgba(0, 0, 0, 0.12);
+
     }
 }
 .form-text {
@@ -2169,7 +2226,8 @@ h1, h2, h3, h4, h5, h6 , p {
         @include space-between;
     }
     .form-group {
-        width: 300px;
+        width: 100%;
+        max-width: 30%;
     } 
     .form-btn {
         width: 100%;
@@ -2277,7 +2335,7 @@ h1, h2, h3, h4, h5, h6 , p {
         transition: .3s linear;
         box-shadow: none;
         &:hover {
-            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.18);
         }
     }
 } 
@@ -2399,6 +2457,10 @@ h1, h2, h3, h4, h5, h6 , p {
         .form-btn {
             max-width: 300px;
         }
+    }
+    .payment-list__item {
+        width: 100%;
+        max-width: 240px;
     }
     .comfort__content-pic {
         transform: translateX(-40%);
@@ -2563,8 +2625,11 @@ h1, h2, h3, h4, h5, h6 , p {
         max-width: 140px;
     }
     .burger-menu {
+        border: none;
+        background: transparent;
         display: block;
         cursor: pointer;
+        padding: 0;
     }
     .burger-menu__item {
         display: block;
@@ -2840,8 +2905,6 @@ h1, h2, h3, h4, h5, h6 , p {
             }
         }
     }
-     
-
     .documents__title {
         flex-wrap: wrap;
         margin-bottom: 40px;
@@ -2883,6 +2946,7 @@ h1, h2, h3, h4, h5, h6 , p {
             .form-group {
                 margin-bottom: 25px;
                 width: 50%;
+                max-width: none;
             }
             .form-btn {
                 align-self: flex-start;
@@ -3226,6 +3290,11 @@ h1, h2, h3, h4, h5, h6 , p {
         .jump-menu__wrapper {
             width: 90%;
         }
+    }
+    .apartments-btns__link {
+        font-weight: 500;
+        font-size: 11px;
+        padding: 10px 15px;
     } 
     .footer-top__inner {
         .footer-top__col {

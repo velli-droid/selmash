@@ -4,6 +4,7 @@
   src: url("../fonts/MontserratBlack.eot") format("embedded-opentype"), url("../fonts/MontserratBlack.woff2") format("woff2"), url("../fonts/MontserratBlack.woff") format("woff"), url("../fonts/MontserratBlack.ttf") format("truetype"), url("../fonts/MontserratBlack.svg#MontserratBlack") format("svg");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   src: url("../fonts/MontserratExtraBold.eot") format("embedded-opentype"), url("../fonts/MontserratExtraBold.woff2") format("woff2"), url("../fonts/MontserratExtraBold.woff") format("woff"), url("../fonts/MontserratExtraBold.ttf") format("truetype"), url("../fonts/MontserratExtraBold.svg#MontserratExtraBold") format("svg");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -20,6 +22,7 @@
   src: url("../fonts/MontserratBold.eot") format("embedded-opentype"), url("../fonts/MontserratBold.woff2") format("woff2"), url("../fonts/MontserratBold.woff") format("woff"), url("../fonts/MontserratBold.ttf") format("truetype"), url("../fonts/MontserratBold.svg#MontserratBold") format("svg");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -28,6 +31,7 @@
   src: url("../fonts/MontserratSemiBold.eot") format("embedded-opentype"), url("../fonts/MontserratSemiBold.woff2") format("woff2"), url("../fonts/MontserratSemiBold.woff") format("woff"), url("../fonts/MontserratSemiBold.ttf") format("truetype"), url("../fonts/MontserratSemiBold.svg#MontserratSemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -36,6 +40,7 @@
   src: url("../fonts/MontserratMedium.eot") format("embedded-opentype"), url("../fonts/MontserratMedium.woff2") format("woff2"), url("../fonts/MontserratMedium.woff") format("woff"), url("../fonts/MontserratMedium.ttf") format("truetype"), url("../fonts/MontserratMedium.svg#MontserratMedium") format("svg");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -44,6 +49,7 @@
   src: url("../fonts/MontserratRegular.eot") format("embedded-opentype"), url("../fonts/MontserratRegular.woff2") format("woff2"), url("../fonts/MontserratRegular.woff") format("woff"), url("../fonts/MontserratRegular.ttf") format("truetype"), url("../fonts/MontserratRegular.svg#MontserratRegular") format("svg");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -52,6 +58,7 @@
   src: url("../fonts/MontserratLight.eot") format("embedded-opentype"), url("../fonts/MontserratLight.woff2") format("woff2"), url("../fonts/MontserratLight.woff") format("woff"), url("../fonts/MontserratLight.ttf") format("truetype"), url("../fonts/MontserratLight.svg#MontserratLight") format("svg");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -60,6 +67,7 @@
   src: local("Inter Bold Italic"), local("Inter-BoldItalic"), url("../fonts/Inter-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-BoldItalic.woff2") format("woff2"), url("../fonts/Inter-BoldItalic.woff") format("woff"), url("../fonts/Inter-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -68,6 +76,7 @@
   src: local("Inter Medium Italic"), local("Inter-MediumItalic"), url("../fonts/Inter-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-MediumItalic.woff2") format("woff2"), url("../fonts/Inter-MediumItalic.woff") format("woff"), url("../fonts/Inter-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -76,6 +85,7 @@
   src: local("Inter Thin Italic BETA"), local("Inter-ThinItalicBETA"), url("../fonts/Inter-ThinItalicBETA.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-ThinItalicBETA.woff2") format("woff2"), url("../fonts/Inter-ThinItalicBETA.woff") format("woff"), url("../fonts/Inter-ThinItalicBETA.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -84,6 +94,7 @@
   src: local("Inter Regular"), local("Inter-Regular"), url("../fonts/Inter-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -92,6 +103,7 @@
   src: local("Inter Black"), local("Inter-Black"), url("../fonts/Inter-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff"), url("../fonts/Inter-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -100,6 +112,7 @@
   src: local("Inter Black Italic"), local("Inter-BlackItalic"), url("../fonts/Inter-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-BlackItalic.woff2") format("woff2"), url("../fonts/Inter-BlackItalic.woff") format("woff"), url("../fonts/Inter-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -108,6 +121,7 @@
   src: local("Inter Light BETA"), local("Inter-LightBETA"), url("../fonts/Inter-LightBETA.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-LightBETA.woff2") format("woff2"), url("../fonts/Inter-LightBETA.woff") format("woff"), url("../fonts/Inter-LightBETA.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -116,6 +130,7 @@
   src: local("Inter Semi Bold"), local("Inter-SemiBold"), url("../fonts/Inter-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff"), url("../fonts/Inter-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -124,6 +139,7 @@
   src: local("Inter Extra Bold Italic"), local("Inter-ExtraBoldItalic"), url("../fonts/Inter-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Inter-ExtraBoldItalic.woff") format("woff"), url("../fonts/Inter-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -132,6 +148,7 @@
   src: local("Inter Bold"), local("Inter-Bold"), url("../fonts/Inter-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff"), url("../fonts/Inter-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -140,6 +157,7 @@
   src: local("Inter Extra Light Italic BETA"), local("Inter-ExtraLightItalicBETA"), url("../fonts/Inter-ExtraLightItalicBETA.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-ExtraLightItalicBETA.woff2") format("woff2"), url("../fonts/Inter-ExtraLightItalicBETA.woff") format("woff"), url("../fonts/Inter-ExtraLightItalicBETA.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -148,6 +166,7 @@
   src: local("Inter Extra Light BETA"), local("Inter-ExtraLightBETA"), url("../fonts/Inter-ExtraLightBETA.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-ExtraLightBETA.woff2") format("woff2"), url("../fonts/Inter-ExtraLightBETA.woff") format("woff"), url("../fonts/Inter-ExtraLightBETA.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -156,6 +175,7 @@
   src: local("Inter Extra Bold"), local("Inter-ExtraBold"), url("../fonts/Inter-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter-ExtraBold.woff") format("woff"), url("../fonts/Inter-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -164,6 +184,7 @@
   src: local("Inter Thin BETA"), local("Inter-ThinBETA"), url("../fonts/Inter-ThinBETA.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-ThinBETA.woff2") format("woff2"), url("../fonts/Inter-ThinBETA.woff") format("woff"), url("../fonts/Inter-ThinBETA.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -172,6 +193,7 @@
   src: local("Inter Light Italic BETA"), local("Inter-LightItalicBETA"), url("../fonts/Inter-LightItalicBETA.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-LightItalicBETA.woff2") format("woff2"), url("../fonts/Inter-LightItalicBETA.woff") format("woff"), url("../fonts/Inter-LightItalicBETA.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -180,6 +202,7 @@
   src: local("Inter Italic"), local("Inter-Italic"), url("../fonts/Inter-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-Italic.woff2") format("woff2"), url("../fonts/Inter-Italic.woff") format("woff"), url("../fonts/Inter-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -188,6 +211,7 @@
   src: local("Inter Semi Bold Italic"), local("Inter-SemiBoldItalic"), url("../fonts/Inter-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter-SemiBoldItalic.woff") format("woff"), url("../fonts/Inter-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -196,10 +220,11 @@
   src: local("Inter Medium"), local("Inter-Medium"), url("../fonts/Inter-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff"), url("../fonts/Inter-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 140%;
   font-weight: 400;
@@ -247,7 +272,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header {
-  padding: 24px 0 36px;
+  padding: 24px 0;
 }
 
 .header__inner {
@@ -481,11 +506,14 @@ h1, h2, h3, h4, h5, h6, p {
   z-index: 7;
   -webkit-transition: .3s linear;
   transition: .3s linear;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
 }
 
 .swiper-btn:hover {
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.18);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.18);
 }
 
 .swiper-btn .swiper-btn__wrapper {
@@ -686,6 +714,12 @@ h1, h2, h3, h4, h5, h6, p {
   background: #ff6600;
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-btn__link:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 2px #fff;
+          box-shadow: 0 0 0 2px #fff;
 }
 
 .about {
@@ -1001,7 +1035,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .about-tabs__text {
@@ -1099,7 +1133,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .radios__item .radio-input {
-  display: none;
+  position: absolute;
+  opacity: 0;
 }
 
 .radios__item .radio-input:checked ~ .radio-label {
@@ -1108,6 +1143,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .radios__item .radio-input:checked ~ .radio-label::after {
   background: #00ADEF;
+}
+
+.radios__item .radio-input:focus ~ .radio-label::before {
+  border: 1px solid #FF7900;
 }
 
 .radios__item .radio-label {
@@ -1277,6 +1316,17 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-left: 20px;
+}
+
+.request-info__link {
+  text-decoration: none;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  color: #fff;
+}
+
+.request-info__link:hover {
+  color: #ff6600;
 }
 
 .request-circle {
@@ -1939,8 +1989,7 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  max-width: 240px;
+  width: 24%;
   padding: 32px 16px 34px;
   background: #fff;
   -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
@@ -1996,15 +2045,21 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 24px;
 }
 
-.payment-list__btn .page-btn__link {
+.page-btn__link_payment {
   border: 1.4px solid #FF7900;
   background: #fff;
   color: #000;
 }
 
-.payment-list__btn .page-btn__link:hover {
+.page-btn__link_payment:hover {
   background: #FF7900;
   color: #fff;
+}
+
+.page-btn__link_payment:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 3px #FF7900;
+          box-shadow: 0 0 3px #FF7900;
 }
 
 .building {
@@ -2291,6 +2346,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   border-radius: 10px;
   outline: none;
+  border: 1px solid transparent;
+}
+
+.form-input:focus {
+  border: 1px solid #FF7900;
 }
 
 .form-btn {
@@ -2309,6 +2369,11 @@ h1, h2, h3, h4, h5, h6, p {
 .form-btn .page-btn__link {
   border: none;
   cursor: pointer;
+}
+
+.page-btn__link_form:focus {
+  -webkit-box-shadow: 0 0 0 2px #fff, 0 0 25px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 0 0 2px #fff, 0 0 25px rgba(0, 0, 0, 0.12);
 }
 
 .form-text {
@@ -2667,7 +2732,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .consultation__form .form-group {
-  width: 300px;
+  width: 100%;
+  max-width: 30%;
 }
 
 .consultation__form .form-btn {
@@ -2841,8 +2907,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .socials-list .contacts__icon:hover {
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.18);
+          box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.18);
 }
 
 .socials-list__item {
@@ -2960,6 +3026,10 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .consultation__form .form-btn {
     max-width: 300px;
+  }
+  .payment-list__item {
+    width: 100%;
+    max-width: 240px;
   }
   .comfort__content-pic {
     -webkit-transform: translateX(-40%);
@@ -3121,8 +3191,11 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 140px;
   }
   .burger-menu {
+    border: none;
+    background: transparent;
     display: block;
     cursor: pointer;
+    padding: 0;
   }
   .burger-menu__item {
     display: block;
@@ -3474,6 +3547,7 @@ h1, h2, h3, h4, h5, h6, p {
   .consultation__form form .form-group {
     margin-bottom: 25px;
     width: 50%;
+    max-width: none;
   }
   .consultation__form form .form-btn {
     -ms-flex-item-align: start;
@@ -3805,6 +3879,11 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 375px) {
   .jump-menu .jump-menu__wrapper {
     width: 90%;
+  }
+  .apartments-btns__link {
+    font-weight: 500;
+    font-size: 11px;
+    padding: 10px 15px;
   }
   .footer-top__inner .footer-top__col {
     width: 100%;

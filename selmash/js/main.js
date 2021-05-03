@@ -284,9 +284,9 @@ function controlBtns() {
     })
 }
 function radioBtns() {
-    const radioLabels = apartmentsRadios.querySelectorAll('.radio-label');
+    const radioLabels = apartmentsRadios.querySelectorAll('.radio-input');
     radioLabels.forEach(el => {
-        el.onclick = function() {
+        el.onfocus = function() {
             setTimeout(showCards, 0, apartmentsCards)
         }
     })
@@ -326,7 +326,7 @@ showCards(apartmentsCards);
 const gallerySwiper = new Swiper('.gallery-swiper', {
     slidesPerView: 2,
     loop: true,
-    loopAdditionalSlides: 3,
+    loopAdditionalSlides: 5,
     spaceBetween: 30,
     navigation: {
         nextEl: '.gallery-swiper-next',
@@ -377,6 +377,46 @@ const buildingSwiper = new Swiper('.building__tabs-nav', {
 // BUILDING TABS
 
 tabs('.building__tabs');
+
+// CUSTOM SELECTS
+
+const customSelects = [...document.querySelectorAll('.custom-select')];
+
+function openSelect(el) {
+    el.addEventListener('focus', function() {
+        let selectEl = el.querySelector('.select-selected');
+        document.addEventListener('keydown', function(ev) {
+            if(ev.key === 'Enter') {
+                selectEl.click();
+            }
+        });
+    });
+}
+function chooseOption(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        arr[i].addEventListener('focus', function() {
+            document.addEventListener('keydown', function(ev) {
+                if(ev.key === 'Enter') {
+                    arr[i].click();
+                }
+            });
+        });
+    }
+    arr[0].focus();
+
+}
+function selectKeyboardControl(el) {
+    let optionsList = el.querySelector('.select-items');
+    let optionsListItems = [...optionsList.querySelectorAll('div')];
+    openSelect(el);
+    chooseOption(optionsListItems);
+}
+
+for(let i = 0; i < customSelects.length; i++) {
+    selectKeyboardControl(customSelects[i]);
+}
+
+
 
 // PARTNERS SWIPER
 
